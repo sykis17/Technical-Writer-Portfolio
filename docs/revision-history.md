@@ -7,12 +7,15 @@
 | 1.2 | 2025-10-25 | 2025-10-25 | Updated QRH Memory Items (Cabin Alt) | JP |
 | Rev No. | Date | Description | | :--- | :--- | :--- | | 1.4 | 2025-12-25 | Implemented Mermaid diagrams and automated versioning. |
 
----
+
 
 | Pending | 2025-12-25 | [Add Description Here] | [Initials] |
+
+
+
 ## Active Page List
 *All pages below are current as of Revision 1.2.*
 
 * **QRH Section:** 25 OCT 2025
 * **Normal Procedures:** 20 OCT 2025
-* **Technical Guides:** 20 OCT 2025| Pending | 2025-12-25 | [Add Description Here] | [Initials] |
+* **Technical Guides:** 20 OCT 2025

@@ -14,9 +14,8 @@ jobs:
       - name: Add Row to Table
         run: |
           DATE=$(date +'%Y-%m-%d')
-          NEW_ROW="| Pending | $DATE | [Add Description Here] | [Initials] |"
-          # This command looks for the first line of the Active Page List 
-          # and inserts the new row right above it.
+          # We add a \n at the end to create a new line after the row
+          NEW_ROW="| Pending | $DATE | [Add Description Here] | [Initials] |\n"
           sed -i "/## Active Page List/i $NEW_ROW" docs/revision-history.md
       - name: Commit change
         run: |
