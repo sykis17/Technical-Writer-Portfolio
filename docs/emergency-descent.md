@@ -10,7 +10,7 @@
 ### 4  ENGINE START switches (both) ......... CONT
 ### 5  Thrust levers (both) ...... Reduce thrust to minimum or as needed for anti-ice
 ### 6  Speedbrake ..................... FLIGHT DETENT
-    If structual integrity is in doubt, limit speed as much as possible and avoid high maneuvering loads.
+#### If structual integrity is in doubt, limit speed as much as possible and avoid high maneuvering loads.
 ### 7  **!** Set target speed to Mmo/Vmo
 ----
 

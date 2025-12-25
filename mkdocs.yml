@@ -1,15 +1,6 @@
-site_name: My Docs
+site_name: TECHNICAL WRITER PORTFOLIO
 theme:
   name: material
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-
-markdown_extensions:
-  - pymdownx.tasklist:
-      custom_checkbox: true
 
 nav:
   - Home: index.md
