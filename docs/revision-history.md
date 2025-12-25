@@ -1,4 +1,13 @@
-# Record of Revisions
+# Revision History
+
+## Active Page List
+*All pages below are current as of Revision 1.2.*
+
+* **QRH Section:** 25 OCT 2025
+* **Normal Procedures:** 20 OCT 2025
+* **Technical Guides:** 20 OCT 2025
+
+## Record of Revisions
 
 | Rev No. | Issue Date | Insertion Date | Description of Change | Initial |
 | :--- | :--- | :--- | :--- | :--- |
@@ -9,12 +18,3 @@
 
 
 
-
-
-## Active Page List
-*All pages below are current as of Revision 1.2.*
-
-* **QRH Section:** 25 OCT 2025
-* **Normal Procedures:** 20 OCT 2025
-* **Technical Guides:** 20 OCT 2025
-| Pending | 2025-12-25 | [Description] | [Initials] |
