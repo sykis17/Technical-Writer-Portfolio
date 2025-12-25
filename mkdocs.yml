@@ -1,17 +1,36 @@
 site_name: TECHNICAL WRITER PORTFOLIO
 theme:
   name: material
+  palette:
+    primary: indigo
+  features:
+    - content.update.date
+    - content.update.time
+    - content.action.edit
+    - content.action.view
+    - navigation.tracking
+
 
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
+  - pymdownx.snippets:
+      check_paths: true
 
 plugins:
   - search
+  - git-revision-date-localized:
+        type: datetime
+        timezone: UTC
+        fallback_to_build_date: true
   #- pdf-export:
    #   combined: true
     # media_type: print

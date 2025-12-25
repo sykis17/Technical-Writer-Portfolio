@@ -31,3 +31,20 @@
 
 ---
 *Intentionally Left Blank*
+
+---
+
+# Cabin Altitude Warning / Emergency Descent
+
+... (Emergency Descent Steps) ...
+
+---
+
+## Landing Checklist (Referenced)
+--8<-- "docs/defered-items-LDG.md"
+
+
+!!! info "Standard Procedure"
+    The following checklist is mirrored from the Master Landing Procedures.
+    
+    --8<-- "docs/defered-items-LDG.md"
