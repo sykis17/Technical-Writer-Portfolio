@@ -9,6 +9,7 @@ This document outlines the standard procedure for creating, versioning, and publ
 * **Rendering Engine:** MkDocs (Material Theme)
 * **Distribution:** Adobe Acrobat (PDF/A Optimized)
 
+
 ---
 
 ## 1. Authoring Process

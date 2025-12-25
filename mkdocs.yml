@@ -2,15 +2,30 @@ site_name: TECHNICAL WRITER PORTFOLIO
 theme:
   name: material
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+plugins:
+  - search
+  #- pdf-export:
+   #   combined: true
+    # media_type: print
+
 nav:
   - Home: index.md
+  - 'Revision History': revision-history.md
   - 'Emergency Procedures':
       - 'Cabin Altitude': qrh-cabin-alt.md
       - 'Emergency Descent': emergency-descent.md
+      - 'Landing Checklist': defered-items-LDG.md
   - 'Maneuvers':
       - 'Nose Low Recovery': qrh-nose-low-recovery.md
-  - 'Normal Procedures':
-      - 'Landing Checklist': defered-items-LDG.md
+
   - 'Technical Guides':
       - 'Environment Setup': technical-enviroment-setup-guide.md
       - 'Portfolio Logic': portfolio-guide.md
