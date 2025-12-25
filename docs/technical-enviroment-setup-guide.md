@@ -38,21 +38,28 @@ docs/ : The directory containing all source Markdown files
 
 ## 3. How to send changes to GitHub
 
-### 1. To check for status
-`git status`
+### 1. Verification
+#### Make your edits in the .md files.
+#### CRITICAL: Update docs/revision-history.md with the new Revision Number and Date.
+#### Run `mkdocs serve`on terminal to be able to check changes locally.
 
-### 2. Add files
-`git add .`
+### 2. Stage Changes
 
-### 3. Commit the changes
-`git commit -m "Added Cabin Altitude QRH and basic structure"`
+#### `git status` To confirm modified files.
+#### `git add .` Stage all changes for Upload.
 
-### 5. Push to GitHub
-Upload your local changes to the cloud:
-`git push`
+### 3. Commit
 
-### 6. To check for status
-`git status`
+#### `git commit -m "Brief description of the update"` (e.g., "Rev 1.3: Update Winter Ops Checklist)
+
+### 4. Push to GitHub
+#### `git push` Send your source code to the GitHub repository.
+
+### 5. Deploy
+#### `mkdocs gh-deploy` Updates the actual live website.
+
+### 6. Final Cross-Check
+#### `git status` Should report "Your branch is up to date" and "nothing to commit, working tree clean". 
 
 ## 4. Local Development (Live Preview)
 `mkdocs serve`

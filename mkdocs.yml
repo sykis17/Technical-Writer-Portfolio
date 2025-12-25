@@ -29,3 +29,14 @@ nav:
   - 'Technical Guides':
       - 'Environment Setup': technical-enviroment-setup-guide.md
       - 'Portfolio Logic': portfolio-guide.md
+
+theme:
+  name: material
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.tracking
+    - navigation.sections
+
+extra:
+  last_updated: true  # This shows the user when the manual was last changed
