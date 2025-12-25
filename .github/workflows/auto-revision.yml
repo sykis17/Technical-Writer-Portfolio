@@ -15,7 +15,9 @@ jobs:
         run: |
           DATE=$(date +'%Y-%m-%d')
           NEW_ROW="| Pending | $DATE | [Add Description Here] | [Initials] |"
-          echo "$NEW_ROW" >> docs/revision-history.md
+          # This command looks for the first line of the Active Page List 
+          # and inserts the new row right above it.
+          sed -i "/## Active Page List/i $NEW_ROW" docs/revision-history.md
       - name: Commit change
         run: |
           git config --local user.email "action@github.com"
