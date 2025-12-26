@@ -47,6 +47,7 @@ nav:
       - 'Landing Checklist': defered-items-LDG.md
   - 'Maneuvers':
       - 'Nose Low Recovery': qrh-nose-low-recovery.md
+      - 'Emergency Descent Manouver': qrh-manouvers
 
   - 'Technical Guides':
       - 'Environment Setup': technical-enviroment-setup-guide.md
