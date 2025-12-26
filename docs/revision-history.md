@@ -27,4 +27,4 @@
 
 | Target Rev | Target Date | Description | Initials |
 | :--- | :--- | :--- | :--- |
-| 1.5 | 2025-12-27 | Integration of OM-C Oceanic Plotting Symbols | [JP] |
+| 1.5 | 2025-12-27 | Integration of OM-C Oceanic Plotting Symbols | [JP] || Pending | 2025-12-26 | [Description] | [Initials] |
