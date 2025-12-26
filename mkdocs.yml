@@ -14,6 +14,7 @@ theme:
 extra_javascript:
     - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
     - js/mermaid-init.js
+    - https://sykis17.github.io/Technical-Writer-Portfolio/javascripts/config.js
 
 markdown_extensions:
   - admonition
