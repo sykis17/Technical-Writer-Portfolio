@@ -11,8 +11,7 @@ theme:
     - content.action.view
     - navigation.tracking
 extra_javascript:
-    - https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js
-
+    - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
 
 markdown_extensions:
   - admonition
@@ -40,20 +39,27 @@ plugins:
 
 nav:
   - Home: index.md
-  - 'Revision History': revision-history.md
-  - 'Emergency Procedures':
-      - 'Cabin Altitude': qrh-cabin-alt.md
-      - 'Emergency Descent': emergency-descent.md
-      - 'Landing Checklist': defered-items-LDG.md
-  - 'Maneuvers':
-      - 'Nose Low Recovery': qrh-nose-low-recovery.md
-      - 'Emergency Descent Manouver': qrh-manouvers.md
-
-  - 'Technical Guides':
-      - 'Environment Setup': technical-enviroment-setup-guide.md
-      - 'Portfolio Logic': portfolio-guide.md
-      - 'Electrical System': elec.md
-      - 'Testi': test.md
+  - 'OM-A':
+    - 'NITS Briefing': nits.md
+    - 'PIOSEE Briefing': piosee.md
+    - 'Manual Requirments': manualr.md
+  - 'OM-B':
+     - 'Emergency Procedures':
+        - 'Cabin Altitude': qrh-cabin-alt.md
+        - 'Emergency Descent': emergency-descent.md
+        - 'Landing Checklist': defered-items-LDG.md
+     - 'Maneuvers':
+        - 'Nose Low Recovery': qrh-nose-low-recovery.md
+        - 'Emergency Descent Manouver': qrh-manouvers.md
+  - 'OM-C':
+    - 'HF Radio & Entertainment Frequencies': hf.md
+  - 'OM-D':
+    - 'Revision History': revision-history.md
+    - 'Technical Guides':
+        - 'Environment Setup': technical-enviroment-setup-guide.md
+        - 'Portfolio Logic': portfolio-guide.md
+        - 'Electrical System': elec.md
+        - 'Testi': test.md
 
 theme:
   name: material
