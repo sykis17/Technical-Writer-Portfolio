@@ -1,6 +1,6 @@
 # Electrical System Logic
 
-```mermaid
+
 graph TB
     subgraph AC_SOURCES [AC Power Sources]
         GEN1[Engine Gen 1]
