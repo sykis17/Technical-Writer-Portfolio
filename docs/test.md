@@ -1,7 +1,7 @@
-# Mermaid System Test
+# Mermaid Force Test
 
 ```mermaid
-graph LR
-    A[Engine Start] --> B{Oil Pressure?}
-    B -- Low --> C[Shut Down]
-    B -- Normal --> D[Taxi]
+graph TD
+    A[Start] --> B{Working?}
+    B -- Yes --> C[Celebrate]
+    B -- No --> D[Check Console]
