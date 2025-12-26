@@ -1,7 +1,9 @@
 # Mermaid Force Test
 
-```mermaid
-graph TD
-    A[Start] --> B{Working?}
-    B -- Yes --> C[Celebrate]
-    B -- No --> D[Check Console]
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+  

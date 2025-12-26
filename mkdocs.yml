@@ -47,11 +47,13 @@ nav:
     - 'PIOSEE Briefing': piosee.md
     - 'Manual Requirments': manualr.md
   - 'OM-B':
-     - 'Emergency Procedures':
+    - 'Normal Procedures':
+        - 'Vnav Approach': vnav.md
+    - 'Emergency Procedures':
         - 'Cabin Altitude': qrh-cabin-alt.md
         - 'Emergency Descent': emergency-descent.md
         - 'Landing Checklist': defered-items-LDG.md
-     - 'Maneuvers':
+    - 'Maneuvers':
         - 'Nose Low Recovery': qrh-nose-low-recovery.md
         - 'Emergency Descent Manouver': qrh-manouvers.md
   - 'OM-C':
