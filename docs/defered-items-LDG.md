@@ -4,13 +4,13 @@
 
 ---
 
-* [ ] **START switches** . . . . . . .**CONT**
-* [ ] **Recall** . . . . . . . . . . .**Checked**
-* [ ] **Speedbrake** . . . . . . . . .**ARMED, Green light**
-* [ ] **Landing gear** . . . . . . . .**Down, 3 green**
-* [ ] **Autobrake** . . . . . . . . . **\_\_\_ Set**
-* [ ] **Flaps** . . . . . . . . . . . **\_\_\_ / \_\_\_, Green light**
-* [ ] **Landing lights** . . . . . . . . . . . . . .  **ON**
+* [ ] **START switches** . . . . . . . **CONT**
+* [ ] **Recall** . . . . . . . . . . . **Checked**
+* [ ] **Speedbrake** . . . . . . . . . **ARMED, Green light**
+* [ ] **Landing gear** . . . . . . . . **Down, 3 green**
+* [ ] **Autobrake**. . . . . . . . . . **\_\_\_ Set**
+* [ ] **Flaps**. . . . . . . . . . . . **\_\_\_ / \_\_\_, Green light**
+* [ ] **Landing lights** . . . . . . . **ON**
 
 ---
 
