@@ -3,7 +3,7 @@
   <h2 style="color: #3f51b5;">Flight Operations & Manual Standards</h2>
   <br>
   <div style="border: 2px solid #3f51b5; display: inline-block; padding: 10px 20px;">
-    <h3 style="margin: 0;">REVISION: 1.2</h3>
+    <h3 style="margin: 0;">REVISION: 1.4</h3>
     <h3 style="margin: 0;">EFFECTIVE DATE: 26 DEC 2025</h3>
   </div>
   <p style="margin-top: 20px; font-weight: bold;">Fleet Standard: B737-800</p>
