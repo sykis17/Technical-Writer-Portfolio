@@ -13,7 +13,7 @@
 ## 📄 Professional Curriculum Vitae
 *Click below to view the full CV or save a copy for your records.*
 
-<a href="../files/assets/jesse_malma_cv.pdf" target="_blank">
+<a href="files/assets/jesse_malma_cv.pdf" target="_blank">
   <button style="background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
     View CV in Browser
   </button>
