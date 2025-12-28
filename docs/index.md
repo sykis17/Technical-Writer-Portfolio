@@ -21,7 +21,7 @@
 
 ---
 
-[📥 Download PDF version](../files/assets/jesse_malma_cv.pdf)
+[📥 Download PDF version](files/assets/jesse_malma_cv.pdf)
 
 ## 👨‍✈️ Executive Summary
 As a **B737 Pilot (3,000+ Flight Hours)** and Technical Writer, I bridge the gap between cockpit operational reality and high-integrity documentation. This portfolio showcases a **Docs-as-Code** ecosystem designed for 100% dispatch reliability.
