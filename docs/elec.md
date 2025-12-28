@@ -1,6 +1,6 @@
 # Electrical System Logic
 
-
+``` mermaid
 graph TB
     subgraph AC_SOURCES [AC Power Sources]
         GEN1[Engine Gen 1]
@@ -35,5 +35,9 @@ graph TB
     DC1 --> STBY[Standby Bus]
     BATT -.->|Emergency| STBY
 
+    
+
     style STBY fill:#f96,stroke:#333,stroke-width:2px
     style TIE fill:#fff,stroke:#333,stroke-dasharray: 5 5
+
+```

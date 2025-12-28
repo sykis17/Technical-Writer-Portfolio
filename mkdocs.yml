@@ -15,6 +15,7 @@ extra_javascript:
     - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
     - js/mermaid-init.js
     - https://sykis17.github.io/Technical-Writer-Portfolio/javascripts/config.js
+    - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 markdown_extensions:
   - admonition
@@ -56,6 +57,8 @@ nav:
     - 'Manouvers':
         - 'Nose Low Recovery': qrh-nose-low-recovery.md
         - 'Emergency Descent Manouver': qrh-manouvers.md
+    - 'FCOM 2':
+        - 'Electrical System': elec.md
   - 'OM-C':
     - 'HF Radio & Entertainment Frequencies': hf.md
   - 'OM-D':
@@ -63,7 +66,6 @@ nav:
     - 'Technical Guides':
         - 'Environment Setup': technical-enviroment-setup-guide.md
         - 'Portfolio Logic': portfolio-guide.md
-        - 'Electrical System': elec.md
         - 'Testi': test.md
     - 'CRM Training':
         - 'Busy Jim Video': busyjim.md
