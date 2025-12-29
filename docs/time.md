@@ -39,7 +39,14 @@ This tool provides synchronized time tracking for global operations. Use the Chr
             <button onclick="resetStopwatch()" style="background: #444; color: white; border: none; padding: 12px 25px; border-radius: 4px; cursor: pointer; font-weight: bold;">RESET</button>
         </div>
 
-<div id
+<div id="laps-container" style="max-height: 150px; overflow-y: auto; background: #111; padding: 10px; border-radius: 5px; text-align: left; font-size: 0.9em; border: 1px solid #222;">
+            <p style="color: #666; margin: 0; border-bottom: 1px solid #222; padding-bottom: 5px;">ELAPSED LOG:</p>
+            <ul id="laps-list" style="list-style: none; padding: 0; margin: 5px 0; color: #00aa00;">
+                </ul>
+        </div>
+    </div>
+
+</div>
 
 <script>
     function updateClocks() {
@@ -52,9 +59,11 @@ This tool provides synchronized time tracking for global operations. Use the Chr
         document.getElementById('hwi-time').innerText = now.toLocaleTimeString('en-GB', { ...options, timeZone: 'Pacific/Honolulu' });
     }
     setInterval(updateClocks, 1000);
-    updateClocks(); // Initial call
+    updateClocks();
 
     let startTime, elapsedTime = 0, timerInterval;
+    let lapCount = 0;
+
     function startStopwatch() {
         if (!timerInterval) {
             startTime = Date.now() - elapsedTime;
@@ -67,12 +76,28 @@ This tool provides synchronized time tracking for global operations. Use the Chr
             timerInterval = null;
         }
     }
+
+    function recordLap() {
+        if (elapsedTime > 0) {
+            lapCount++;
+            const list = document.getElementById('laps-list');
+            const entry = document.createElement('li');
+            entry.style.borderBottom = "1px solid #222";
+            entry.style.padding = "3px 0";
+            entry.innerHTML = `<span>MARK ${lapCount}:</span> <span style="float:right;">${formatTime(elapsedTime)}</span>`;
+            list.prepend(entry);
+        }
+    }
+
     function resetStopwatch() {
         clearInterval(timerInterval);
         timerInterval = null;
         elapsedTime = 0;
+        lapCount = 0;
         document.getElementById('stopwatch-display').innerText = "00:00:00";
+        document.getElementById('laps-list').innerHTML = "";
     }
+
     function formatTime(ms) {
         let h = Math.floor(ms / 3600000);
         let m = Math.floor((ms % 3600000) / 60000);
