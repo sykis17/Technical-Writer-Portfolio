@@ -1,3 +1,5 @@
+--8<-- "includes/revision_header.md"
+
 # List of Effective Pages (LEP)
 
 <div style="border: 2px solid #3f51b5; display: inline-block; padding: 10px 20px; border-radius: 5px; margin-bottom: 20px;">
