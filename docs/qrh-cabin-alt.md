@@ -40,7 +40,7 @@
 !!! info "Standard Procedure"
     The following checklist is mirrored from the defered-items-LDG.md
     
-    --8<-- "docs/defered-items-LDG.md"
+    --8<-- "defered-items-LDG.md"
 
     ---
 <p style="font-size: 0.8em; color: gray;">
