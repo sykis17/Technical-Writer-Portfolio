@@ -53,6 +53,7 @@ nav:
     - 'PIOSEE Briefing': piosee.md
     - 'Manual Requirements': manualr.md
     - 'List of Terms': glossary.md
+    - 'Revision Control (LEP)': lep.md
   - 'OM-B':
     - 'Normal Procedures':
         - 'Vnav Approach': vnav.md
