@@ -1,4 +1,4 @@
-# List HF Radio & Entertainment Frequencies
+# List HF Radio Frequencies
 
 | Station / Service | Frequency (kHz) | Location | Notes |
 | :--- | :--- | :--- | :---|

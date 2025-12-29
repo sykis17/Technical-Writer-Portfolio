@@ -65,7 +65,7 @@ nav:
     - 'FCOM 2':
         - '6. Electrical System': elec.md
   - 'OM-C':
-    - 'HF Radio & Entertainment Frequencies': hf.md
+    - 'HF Radio Frequencies': hf.md
   - 'OM-D':
     - 'Revision History': revision-history.md
     - 'Technical Guides':
