@@ -21,7 +21,14 @@
     </div>
 </center>
 
-
+<div style="margin: 20px 0; text-align: center;">
+    <a href="cv-page/" style="text-decoration: none;">
+        <button style="background-color: #3f51b5; color: white; padding: 16px 32px; border: none; border-radius: 8px; cursor: pointer; font-size: 1.1em; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            👁️ VIEW PROFESSIONAL CV
+        </button>
+    </a>
+    <p style="color: #666; font-size: 0.9em; margin-top: 8px;">(PDF Document Preview)</p>
+</div>
 
 ## 👨‍✈️ Executive Summary
 As a **B737 Pilot (3,000+ Flight Hours)** and Technical Writer, I bridge the gap between cockpit operational reality and high-integrity documentation. This portfolio showcases a **Docs-as-Code** ecosystem designed for 100% dispatch reliability.
