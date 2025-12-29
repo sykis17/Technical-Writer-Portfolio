@@ -1,6 +1,6 @@
 # Operations & Time Management
 
-This tool provides synchronized time tracking for global operations. The layout is optimized for four primary operational regions.
+This tool provides synchronized time tracking for global operations. Use the Chronometer to track specific flight phases or training intervals.
 
 ---
 
@@ -9,36 +9,37 @@ This tool provides synchronized time tracking for global operations. The layout 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; text-align: center;">
         <div style="border: 1px solid #333; padding: 15px; border-radius: 8px;">
             <p style="margin: 0; color: #888; font-size: 0.8em;">UTC / ZULU</p>
-            <h2 id="utc-time" style="margin: 10px 0; font-size: 1.8em;">00:00:00</h2>
+            <h2 id="utc-time" style="margin: 10px 0; font-size: 1.8em; color: #00ff00 !important;">00:00:00</h2>
             <span style="font-size: 0.7em; color: #008800;">● SYSTEM ADVSY</span>
         </div>
         <div style="border: 1px solid #333; padding: 15px; border-radius: 8px;">
             <p style="margin: 0; color: #888; font-size: 0.8em;">HELSINKI (EET)</p>
-            <h2 id="hel-time" style="margin: 10px 0; font-size: 1.8em;">00:00:00</h2>
+            <h2 id="hel-time" style="margin: 10px 0; font-size: 1.8em; color: #00ff00 !important;">00:00:00</h2>
             <span style="font-size: 0.7em; color: #008800;">● LOCAL TIME</span>
         </div>
         <div style="border: 1px solid #333; padding: 15px; border-radius: 8px;">
             <p style="margin: 0; color: #888; font-size: 0.8em;">NEW YORK (EST)</p>
-            <h2 id="ny-time" style="margin: 10px 0; font-size: 1.8em;">00:00:00</h2>
+            <h2 id="ny-time" style="margin: 10px 0; font-size: 1.8em; color: #00ff00 !important;">00:00:00</h2>
             <span style="font-size: 0.7em; color: #008800;">● OPS CTR</span>
         </div>
         <div style="border: 1px solid #333; padding: 15px; border-radius: 8px;">
             <p style="margin: 0; color: #888; font-size: 0.8em;">HAWAII (HST)</p>
-            <h2 id="hwi-time" style="margin: 10px 0; font-size: 1.8em;">00:00:00</h2>
+            <h2 id="hwi-time" style="margin: 10px 0; font-size: 1.8em; color: #00ff00 !important;">00:00:00</h2>
             <span style="font-size: 0.7em; color: #008800;">● PACIFIC HUB</span>
         </div>
     </div>
 
 <div style="margin-top: 30px; text-align: center; border-top: 1px solid #333; padding-top: 20px;">
         <p style="margin: 0; color: #888; font-size: 0.8em;">FLIGHT CHRONOMETER</p>
-        <h1 id="stopwatch-display" style="font-size: 3.5em; margin: 10px 0;">00:00:00</h1>
-        <div style="display: flex; justify-content: center; gap: 10px;">
+        <h1 id="stopwatch-display" style="font-size: 3.5em; margin: 10px 0; color: #00ff00 !important;">00:00:00</h1>
+        
+<div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;">
             <button onclick="startStopwatch()" style="background: #3f51b5; color: white; border: none; padding: 12px 25px; border-radius: 4px; cursor: pointer; font-weight: bold;">START / STOP</button>
+            <button onclick="recordLap()" style="background: #008800; color: white; border: none; padding: 12px 25px; border-radius: 4px; cursor: pointer; font-weight: bold;">ELAPSED MARK</button>
             <button onclick="resetStopwatch()" style="background: #444; color: white; border: none; padding: 12px 25px; border-radius: 4px; cursor: pointer; font-weight: bold;">RESET</button>
         </div>
-    </div>
 
-</div>
+<div id
 
 <script>
     function updateClocks() {
