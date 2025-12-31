@@ -58,9 +58,9 @@ This project demonstrates organizational logic used in major airline Operations 
 ---
 
 ## 🛠 Technical Skillset
-| Capability | Implementation |
-| :--- | :--- |
-| **Docs-as-Code** | MkDocs (Material Theme) / YAML |
-| **Integrity** | Pymdownx Snippets (Single-Source of Truth) |
-| **Graphics** | 2D Flight Profile Mapping & Logic Flowcharts |
-| **Safety** | Warning/Caution/Note (WCN) Hierarchy Management |
+| Capability       | Implementation                                  |
+| :--------------- | :---------------------------------------------- |
+| **Docs-as-Code** | MkDocs (Material Theme) / YAML                  |
+| **Integrity**    | Pymdownx Snippets (Single-Source of Truth)      |
+| **Graphics**     | 2D Flight Profile Mapping & Logic Flowcharts    |
+| **Safety**       | Warning/Caution/Note (WCN) Hierarchy Management |
